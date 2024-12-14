@@ -1,2 +1,0 @@
-# terapo
-terapo website
