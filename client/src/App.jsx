@@ -3,7 +3,7 @@ import { Outlet, createBrowserRouter, RouterProvider } from "react-router";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
-import Donation from "./pages/donation";
+import Donation from "./pages/Donation";
 import Partners from "./pages/Partners";
 import News from "./pages/News";
 import Skill_and_skill from "./pages/Skill_and_skill";
