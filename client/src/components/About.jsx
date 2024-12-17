@@ -3,7 +3,9 @@ import React from "react";
 const About = () => {
   return (
     <div className="bg-[#000] w-full px-10 py-5">
-      <div className="font-black text-[#ffd01d] text-[48px]">WHO WE ARE</div>
+      <div className="font-black text-[#ffd01d] text-[24px] text-center md:text-[48px]">
+        WHO WE ARE
+      </div>
       <div className="flex w-full font-black">
         <div className="hidden md:block w-[50%]"></div>
         <div className="w-full md:w-[50%] text-center md:text-left flex flex-col justify-center items-center">
