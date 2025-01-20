@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { motion } from "motion/react";
 
 const Hero = ({ title, subText }) => {
   const styles = {
@@ -14,9 +15,12 @@ const Hero = ({ title, subText }) => {
         {subText}
       </div>
       <Link to={"./donation"}>
-        <div className="w-[200px] h-[80px] bg-[#ffd01d] mt-10 font-black font-oswald rounded-lg text-[#000] text-[30px] flex justify-center items-center">
+        <motion.div
+          animate={{ scale: 1.5 }}
+          className="w-[200px] h-[80px] bg-[#ffd01d] mt-10 font-black font-oswald rounded-lg text-[#000] text-[30px] flex justify-center items-center"
+        >
           DONATE
-        </div>
+        </motion.div>
       </Link>
     </div>
   );

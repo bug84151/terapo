@@ -19,7 +19,7 @@ const Navbar = () => {
 
       <div>
         <HamMenu openMenu={() => setMenuOpen(!menuOpen)} />
-        <motion.ul className="hidden absolute right-1 flex-col gap-5 md:flex md:flex-row md:gap-3 justify-center items-center text-[#dad7d4] font-oswald md:text-[20px] text-[15px]">
+        <ul className="hidden absolute right-1 flex-col gap-5 md:flex md:flex-row md:gap-3 justify-center items-center text-[#dad7d4] font-oswald md:text-[20px] text-[15px]">
           <Link to={"/"}>
             <li className={styles.link}>Home</li>
           </Link>
@@ -35,11 +35,11 @@ const Navbar = () => {
           <Link to={"/donation"}>
             <li className={styles.link}>Donate</li>
           </Link>
-        </motion.ul>
+        </ul>
         {menuOpen && (
           <motion.ul
-            initial={{ display: "hidden" }}
-            animate={{}}
+            initial={{ y: "-100vh" }}
+            animate={{ y: 0 }}
             className="absolute right-1 flex-col gap-5 md:flex md:flex-row md:gap-3 justify-center items-center text-[#dad7d4] font-oswald md:text-[20px] text-[15px]"
           >
             <Link to={"/"}>
