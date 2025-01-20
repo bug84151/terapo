@@ -5,7 +5,7 @@ const Partners = () => {
     <div className="flex flex-col gap-5 px-10 bg-[#000] py-5 w-full">
       <div>
         <div className="text-[#ffd01d] font-black text-[1.8rem]">SPONSORS</div>
-        <div className="flex gap-2 w-full h-[15vh] md:h-[30vh] bg-[#000] ">
+        <div className="flex gap-2 w-full h-[15vh] md:h-[30vh] bg-[#000]">
           <img src="./sponsors/l5.jpeg" className="rounded-lg h-full" />
           <img src="./sponsors/s2.jpg" className="rounded-lg h-full" />
         </div>

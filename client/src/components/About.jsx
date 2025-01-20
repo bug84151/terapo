@@ -3,12 +3,12 @@ import React from "react";
 const About = () => {
   return (
     <div className="bg-[#000] w-full px-10 py-5">
-      <div className="font-black text-[#ffd01d] text-center md:text-left text-[24px] md:text-[80px] mb-4 md:mb-0">
+      <div className="font-black text-[#ffd01d] text-center md:text-left text-[24px] md:text-[80px] mb-4 md:mb-0 italic">
         WHO WE ARE
       </div>
       <div className="flex w-full font-black">
         <div className="hidden md:block w-[50%]"></div>
-        <div className="w-full md:w-[50%] text-center md:text-left flex flex-col justify-center items-center">
+        <div className="w-full md:w-[50%] text-center md:text-left flex flex-col justify-center items-center italic">
           <h1 className="text-[1.8rem]md:text-[48px] text-[#dad7d4] mb-4">
             WE HELP PEOPLE DISCOVER THEIR TRUE SELVES.
           </h1>

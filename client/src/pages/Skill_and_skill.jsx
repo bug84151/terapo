@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { motion } from "motion/react";
 import Student_card from "../components/Student_card";
 
 const Skill_and_skill = () => {
@@ -516,10 +517,15 @@ const Skill_and_skill = () => {
     },
   ];
   const styles = {
-    hero: "h-[80vh] bg-[#000] text-[#dad7d4] text-[8vw] flex flex-col justify-center items-center gap-10 font-black font-oswald flex flex-col",
+    hero: "h-[80vh] bg-[#000] text-[#dad7d4] text-[8vw] flex flex-col justify-center items-center gap-10 font-black font-oswald flex flex-col italic",
   };
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 0.5, duration: 0.8 }}
+      className="italic"
+    >
       <div className={styles.hero}>
         <div className="flex justify-center items-center gap-8">
           <div>SCHOOL AND SKILL</div>
@@ -533,7 +539,7 @@ const Skill_and_skill = () => {
           </div>
         </Link>
       </div>
-      <div className="w-full md:px-5 text-center md:text-left justify-center items-center bg-[#000]">
+      <div className="w-full px-5 md:px-5 text-center md:text-left justify-center items-center bg-[#000]">
         <h1 className="text-[1.8rem]md:text-[48px] text-[#dad7d4] text-center">
           ABOUT THE PROGRAM.
         </h1>
@@ -590,7 +596,7 @@ const Skill_and_skill = () => {
           ))}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

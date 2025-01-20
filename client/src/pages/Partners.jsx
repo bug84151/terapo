@@ -1,8 +1,14 @@
 import React from "react";
+import { motion } from "motion/react";
 
 const Partners = () => {
   return (
-    <div className="px-10 py-4 bg-[#000]">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 0.5, duration: 0.8 }}
+      className="px-10 py-4 bg-[#000] italic"
+    >
       <div className="bg-[#000] w-full">
         <div className="font-black text-[#ffd01d] text-[40px] md:text-[80px]">
           OUR SPONSORS
@@ -95,7 +101,7 @@ const Partners = () => {
           />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

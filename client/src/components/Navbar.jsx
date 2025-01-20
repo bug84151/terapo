@@ -40,6 +40,7 @@ const Navbar = () => {
           <motion.ul
             initial={{ y: "-100vh" }}
             animate={{ y: 0 }}
+            transition={{ duration: 0.2 }}
             className="absolute right-1 flex-col gap-5 md:flex md:flex-row md:gap-3 justify-center items-center text-[#dad7d4] font-oswald md:text-[20px] text-[15px]"
           >
             <Link to={"/"}>

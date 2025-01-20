@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { PaystackButton } from "react-paystack";
+import { motion } from "motion/react";
 
 const Donation = () => {
   const publicKey = import.meta.env.VITE_PAYSTACK_PUBLIC_KEY;
@@ -28,8 +29,13 @@ const Donation = () => {
   };
 
   return (
-    <div className="bg-[#000] h-screen flex justify-center items-center py-5">
-      <div className="flex flex-col justify-center items-center gap-4 max-w-md px-4 rounded-lg py-4 font-oswald bg-[#dad7d4]">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 0.5, duration: 0.8 }}
+      className="bg-[#000] h-screen flex justify-center items-center py-5 italic"
+    >
+      <div className="flex flex-col justify-center items-center gap-4 w-[80%] md:max-w-md px-4 rounded-lg py-4 font-oswald bg-[#dad7d4]">
         <h1 className="text-center text-[25px] my-4 font-[600]">
           Make Your School & Skill Donations Here.
         </h1>
@@ -74,7 +80,7 @@ const Donation = () => {
         />
         <PaystackButton className={styles.button} {...componentProps} />
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -4,7 +4,7 @@ const Blog = ({ blog }) => {
   const [show, setShow] = useState(false);
 
   return (
-    <div className="bg-[#000] ">
+    <div className="bg-[#000] italic">
       <h1
         onClick={() => setShow(!show)}
         className="rounded-lg cursor-pointer text-[#dad7d4] px-4 py-4 text-[24px] hover:bg-[#ffd01d]"

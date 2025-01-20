@@ -11,7 +11,7 @@ import Blog from "./components/Blog";
 
 const Layout = () => {
   return (
-    <div className="w-screen bg-[#000] flex flex-col justify-between items-center h-screen">
+    <div className="bg-[#000] flex flex-col justify-between items-center">
       <Navbar />
       <Outlet />
       <Footer />

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <div className="px-10 py-5 bg-[#000] flex flex-col justify-center items-center pb-28">
+    <div className="px-10 py-5 bg-[#000] flex flex-col justify-center items-center pb-28 italic">
       <div className=" md:h-[80vh] w-full flex gap-5 py-5 md:flex-row flex-col">
         <img
           src="./mvm3.jpg"

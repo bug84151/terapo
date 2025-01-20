@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { motion } from "motion/react";
 import Blog from "../components/Blog";
 
 const News = () => {
@@ -100,12 +101,17 @@ small wins and moments of connection, even if things don’t go exactly as plann
   ];
 
   return (
-    <div className="bg-[#000] px-10 py-4">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 0.5, duration: 0.8 }}
+      className="bg-[#000] px-10 py-4 italic h-screen"
+    >
       <div className="flex flex-col gap-5">
-        <div className="text-[#ffd01d] font-black md:text-[48px] text-[1.8rem]">
+        <div className="text-[#ffd01d] font-black md:text-[48px] text-[48px]">
           BLOGS
         </div>
-        <h1 className="text-[48px] font-black text-[#dad7d4]">
+        <h1 className="text-[1.8rem] font-black text-[#dad7d4]">
           WHAT WE'VE BEEN UP
         </h1>
         <div className="flex flex-col gap-4 w-full bg-[#000] ">
@@ -114,7 +120,7 @@ small wins and moments of connection, even if things don’t go exactly as plann
           ))}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
