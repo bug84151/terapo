@@ -105,7 +105,7 @@ small wins and moments of connection, even if things don’t go exactly as plann
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.5, duration: 0.8 }}
-      className="bg-[#000] px-10 py-4 italic h-screen"
+      className="bg-[#000] px-10 py-4 italic h-screen overflow-scroll"
     >
       <div className="flex flex-col gap-5">
         <div className="text-[#ffd01d] font-black md:text-[48px] text-[48px]">

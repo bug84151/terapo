@@ -4,10 +4,10 @@ const Blog = ({ blog }) => {
   const [show, setShow] = useState(false);
 
   return (
-    <div className="bg-[#000] italic">
+    <div className="bg-[#000] italic overflow-scroll">
       <h1
         onClick={() => setShow(!show)}
-        className="rounded-lg cursor-pointer text-[#dad7d4] px-4 py-4 text-[24px] hover:bg-[#ffd01d]"
+        className="rounded-lg cursor-pointer text-[#dad7d4] px-4 py-4 text-[24px] hover:bg-[#ffd01d] font-bold"
       >
         {blog.title}
       </h1>

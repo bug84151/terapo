@@ -801,6 +801,10 @@ video {
   gap: 2rem;
 }
 
+.overflow-scroll{
+  overflow: scroll;
+}
+
 .rounded-lg{
   border-radius: 0.5rem;
 }
@@ -981,6 +985,10 @@ video {
 
 .font-black{
   font-weight: 900;
+}
+
+.font-bold{
+  font-weight: 700;
 }
 
 .italic{
