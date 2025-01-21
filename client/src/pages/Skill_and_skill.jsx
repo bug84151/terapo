@@ -543,17 +543,37 @@ const Skill_and_skill = () => {
         <h1 className="text-[1.8rem]md:text-[48px] text-[#dad7d4] text-center">
           ABOUT THE PROGRAM.
         </h1>
-        <p className="text-[#dad7d499] text-[1rem]">
+        <motion.p
+          initial={{ y: 25, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.3 }}
+          className="text-[#dad7d499] text-[1rem] mb-4"
+        >
           In Nigeria, millions of children face the challenge of poverty and
-          limited access to education and skill acquisition opportunities. At
-          the Terapo Office, we believe that every child deserves a chance to
+          limited access to education and skill acquisition opportunities..
+        </motion.p>
+        <motion.p
+          initial={{ y: 25, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.3 }}
+          className="text-[#dad7d499] text-[1rem] mb-4"
+        >
+          At the Terapo Office, we believe that every child deserves a chance to
           dream, learn, and thrive. The School and Skill a Child Program is our
           bold initiative to support 100 underprivileged children annually by
-          funding their schooling and skill training. Our vision is not just to
-          uplift these children but to raise a generation of privileged
-          individuals who will, in turn, empower other underprivileged children,
-          creating a ripple effect of hope and opportunity.
-        </p>
+          funding their schooling and skill training.
+        </motion.p>
+        <motion.p
+          initial={{ y: 25, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.3 }}
+          className="text-[#dad7d499] text-[1rem] mb-4"
+        >
+          Our vision is not just to uplift these children but to raise a
+          generation of privileged individuals who will, in turn, empower other
+          underprivileged children, creating a ripple effect of hope and
+          opportunity.
+        </motion.p>
       </div>
       <div className="px-10 py-5 bg-[#000] flex flex-col justify-center items-center pb-28">
         <div className=" w-full flex gap-5 py-5 md:flex-row flex-col">

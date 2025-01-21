@@ -693,6 +693,14 @@ video {
   height: 2px;
 }
 
+.h-\[70\%\]{
+  height: 70%;
+}
+
+.h-\[90\%\]{
+  height: 90%;
+}
+
 .w-\[100\%\]{
   width: 100%;
 }
@@ -731,6 +739,10 @@ video {
 
 .w-\[60\%\]{
   width: 60%;
+}
+
+.w-\[90\%\]{
+  width: 90%;
 }
 
 .max-w-14{
@@ -1173,6 +1185,14 @@ video {
 
   .md\:gap-3{
     gap: 0.75rem;
+  }
+
+  .md\:overflow-auto{
+    overflow: auto;
+  }
+
+  .md\:overflow-hidden{
+    overflow: hidden;
   }
 
   .md\:px-5{

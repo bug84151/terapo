@@ -22,21 +22,41 @@ const Partners = () => {
             <h1 className="text-[1.8rem] md:text-[48px] text-[#dad7d4]">
               GODWIN SMART
             </h1>
-            <p className="text-[#dad7d499] text-[1rem]">
+            <motion.p
+              initial={{ y: 25, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.3 }}
+              className="text-[#dad7d499] text-[1rem] mb-4"
+            >
               Godwin Micah Smart is a distinguished physicist, EdTech advocate,
               and gospel musician dedicated to making a positive impact in both
               education and music. Currently pursuing graduate studies at North
-              Carolina Central University, he is also a research scientist at
-              Duke University. As the founder of SMART TUTORS, an EdTech
-              startup, and Schoolarship Hack, an initiative to help African
-              students secure fully funded scholarships in the USA, Godwin is
-              committed to enhancing educational access and quality. A
-              celebrated gospel artist, he uses his music to inspire and uplift,
-              with his latest single, "Righteousness," sharing the profound
-              message of God's love. Godwin’s passion for education, youth
-              empowerment, and making a difference shines through his work and
-              ministry.
-            </p>
+              Carolina Central University,
+            </motion.p>
+            <motion.p
+              initial={{ y: 25, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.3 }}
+              className="text-[#dad7d499] text-[1rem] mb-4"
+            >
+              he is also a research scientist at Duke University. As the founder
+              of SMART TUTORS, an EdTech startup, and Schoolarship Hack, an
+              initiative to help African students secure fully funded
+              scholarships in the USA, Godwin is committed to enhancing
+              educational access and quality.
+            </motion.p>
+            <motion.p
+              initial={{ y: 25, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.3 }}
+              className="text-[#dad7d499] text-[1rem] mb-4"
+            >
+              A celebrated gospel artist, he uses his music to inspire and
+              uplift, with his latest single, "Righteousness," sharing the
+              profound message of God's love. Godwin’s passion for education,
+              youth empowerment, and making a difference shines through his work
+              and ministry.
+            </motion.p>
           </div>
         </div>
         <div className="flex flex-col md:flex-row-reverse gap-2 w-full font-black h-[50%]">
@@ -48,17 +68,30 @@ const Partners = () => {
             <h1 className="text-[1.8rem] md:text-[48px] text-[#dad7d4]">
               DE HEADSHOTS
             </h1>
-            <p className="text-[#dad7d499] text-[1rem]">
+            <motion.p
+              initial={{ y: 25, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.3 }}
+              className="text-[#dad7d499] text-[1rem] mb-4"
+            >
               De Headshot Barbing Salon, located in the heart of Abuja, is the
               city's premier destination for luxury grooming. With a team of
               expert barbers and state-of-the-art facilities, De Headshot
               delivers precision haircuts, stylish fades, and personalized
-              grooming experiences to help you look and feel your best. Offering
-              only the finest hair care products and exceptional service, De
-              Headshot is the go-to choice for those who value top-tier grooming
-              in a sophisticated, comfortable setting. Trust De Headshot Barbing
-              Salon to elevate your style to celebrity status.
-            </p>
+              grooming experiences to help you look and feel your best.
+            </motion.p>
+            <motion.p
+              initial={{ y: 25, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.3 }}
+              className="text-[#dad7d499] text-[1rem] mb-4"
+            >
+              Offering only the finest hair care products and exceptional
+              service, De Headshot is the go-to choice for those who value
+              top-tier grooming in a sophisticated, comfortable setting. Trust
+              De Headshot Barbing Salon to elevate your style to celebrity
+              status.
+            </motion.p>
           </div>
         </div>
       </div>
