@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "motion/react";
 
 const About = () => {
   return (
@@ -12,33 +13,74 @@ const About = () => {
           <h1 className="text-[1.8rem]md:text-[48px] text-[#dad7d4] mb-4">
             WE HELP PEOPLE DISCOVER THEIR TRUE SELVES.
           </h1>
-          <p className="text-[#dad7d499] text-[1rem] mb-4">
-            At Terapo, we are dedicated to supporting mental wellness and
-            empowering individuals of all ages to lead healthier, more
-            fulfilling lives.
-          </p>
-          <p className="text-[#dad7d499] text-[1rem] mb-4">
-            Through our professional therapy services, we help clients navigate
-            life's challenges, build emotional resilience, and unlock their full
-            potential. Whether you're seeking counseling for personal growth or
-            support through difficult times, Terapo provides a safe,
-            compassionate space to foster healing and mental well-being. In
-            addition to our therapy services, Our School and Skill program is a
-            life-changing initiative aimed at providing free education and
-            skills training to children and teens who cannot afford formal
-            schooling.
-          </p>
-          <p className="text-[#dad7d499] text-[1rem] mb-4">
-            Through this outreach, we offer mentorship, academic support, and
-            vocational training to help underserved youth build essential
-            skills, opening doors to brighter futures and greater opportunities.
-            At Terapo, we believe that mental wellness and education go hand in
-            hand in shaping strong, resilient individuals and communities.
-            Whether you're seeking mental health support or passionate about
-            empowering the next generation through School and Skill, we are here
-            to help create lasting, positive change. Join us in building a
-            better tomorrow, one mind at a time.
-          </p>
+          <div className="relative">
+            <motion.p
+              initial={{ y: 25, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.3 }}
+              className="text-[#dad7d499] text-[1rem] mb-4"
+            >
+              At Terapo, we are dedicated to supporting mental wellness and
+              empowering individuals of all ages to lead healthier, more
+              fulfilling lives.
+            </motion.p>
+          </div>
+          <div className="relative">
+            <motion.p
+              initial={{ y: 25, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.3 }}
+              className="text-[#dad7d499] text-[1rem] mb-4"
+            >
+              Through our professional therapy services, we help clients
+              navigate life's challenges, build emotional resilience, and unlock
+              their full potential. Whether you're seeking counseling for
+              personal growth or support through difficult times, Terapo
+              provides a safe,
+            </motion.p>
+          </div>
+          <div>
+            <motion.p
+              initial={{ y: 25, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.3 }}
+              className="text-[#dad7d499] text-[1rem] mb-4"
+            >
+              compassionate space to foster healing and mental well-being. In
+              addition to our therapy services, Our School and Skill program is
+              a life-changing initiative aimed at providing free education and
+              skills training to children and teens who cannot afford formal
+              schooling.
+            </motion.p>
+          </div>
+          <div className="relative">
+            <motion.p
+              initial={{ y: 25, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.3 }}
+              className="text-[#dad7d499] text-[1rem] mb-4"
+            >
+              Through this outreach, we offer mentorship, academic support, and
+              vocational training to help underserved youth build essential
+              skills, opening doors to brighter futures and greater
+              opportunities. At Terapo, we believe that mental wellness and
+              education go hand in hand in shaping strong,
+            </motion.p>
+          </div>
+          <div>
+            <motion.p
+              initial={{ y: 25, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.3 }}
+              className="text-[#dad7d499] text-[1rem] mb-4"
+            >
+              resilient individuals and communities. Whether you're seeking
+              mental health support or passionate about empowering the next
+              generation through School and Skill, we are here to help create
+              lasting, positive change. Join us in building a better tomorrow,
+              one mind at a time.
+            </motion.p>
+          </div>
         </div>
       </div>
     </div>
