@@ -37,6 +37,10 @@ const router = createBrowserRouter([
         element: <Skill_and_skill />,
       },
       {
+        path: "/schoolandskill/donation",
+        element: <Donation />,
+      },
+      {
         path: "/news",
         element: <News />,
       },
