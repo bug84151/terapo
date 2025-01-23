@@ -1,0 +1,19 @@
+{
+  "redirects": [
+    {
+      "source": "/collections",
+      "destination": "https://www.terapo.org",
+      "permanent": true
+    },
+    {
+      "source": "/community-campus",
+      "destination": "https://www.terapo.org",
+      "permanent": true
+    },
+    {
+      "source": "/our-vision",
+      "destination": "https://www.terapo.org",
+      "permanent": true
+    }
+  ]
+}
